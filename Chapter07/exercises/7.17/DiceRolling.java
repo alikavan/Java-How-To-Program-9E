@@ -15,7 +15,7 @@ import java.util.Random;
 
 public class DiceRolling{
     private static final Random randomGenerator = new Random();
-    private static final int NUMBER_OF_ROLLS = 336000000;
+    private static final int NUMBER_OF_ROLLS = 36_000_000;
     private static int[] totalRolls = new int[11];
 
     public static void main(String[] args){
